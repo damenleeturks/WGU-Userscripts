@@ -1,0 +1,127 @@
+div#footer, 
+table#mainContainerH+div { position: fixed;
+                          bottom: 0px; left: 0px;
+                          width: 100%;
+                          padding-top: 6px; padding-bottom: 8px;
+                          background-color: rgba(40,40,40,0.9); color: #ccc;
+                          border-top: 1px solid #666;
+                          font-size: 1.1em; font-weight: bold;
+                          text-align: center;
+                          z-index: 10000;
+                          text-shadow: 0px 0px 5px rgba(0,0,0,.8), 0px 1px 1px #000;
+                        }
+#course_ver             { background-color: rgba(180,33,10,.7) !important
+                        }
+#cos_links_wrapper      { position: fixed;
+                          top: 2px; right: 1px;
+                          height: 35px;
+                          color: #fff !important
+                          font-family: Arial, Trebuchet;
+						  font-size: 12px;
+                        }
+#cos_links_wrapper a    { display: inline-block;
+                          color: #fff !important!;
+                          text-decoration: none !important
+                        }
+.i2Style                { padding: 6.7px 21.6px;
+                          color: #fff !important;
+                          
+                          background-color:#707070;
+						  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#808080', endColorstr='#B8B8B8');
+                          background: -webkit-gradient(linear, left bottom, 0% 0%, 
+                          	color-stop( 0%, #808080), 
+                          	color-stop( 100%, #B8B8B8) 
+                          	);
+                          background: -moz-linear-gradient( left 90deg, 
+                          	hsla(0, 0%, 50%, 1) 0%, 
+                          	hsla(0, 0%, 72%, 1) 100% 
+                          	);
+                          
+                          box-shadow: 0px 1px 1px rgba(10,10,10,.8);
+                          	-moz-box-shadow: 0px 1px 1px rgba(10,10,10,.8);
+                          	-webkit-box-shadow: 0px 1px 1px rgba(10,10,10,.8);
+                          border-radius: 2px;
+                          	-webkit-border-radius: 2px;
+                          border: 1px solid rgba(90,90,90,.2);
+                          text-shadow: 0px -1px 0px #4f4f4f;
+                        }
+.i2Style:hover          { position: relative;
+                          top: -1px;
+                          color: #f9f9f9;
+                          box-shadow: 0px 3px 14px hsla(0, 0%, 20%, .6);
+                          	-moz-box-shadow: 0px 3px 14px hsla(0, 0%, 20%, .6);
+                          	-webkit-box-shadow: 0px 3px 14px hsla(0, 0%, 20%, .6);
+                        }
+.i2Style:active         { position: relative;
+                          top: 2px;
+                          color: #555 !important;
+                          box-shadow: 0px 1px 1px #000000;
+                          	-moz-box-shadow: 0px 1px 1px #000000;
+                          	-webkit-box-shadow: 0px 1px 1px #000000;
+                          box-shadow: 0px -1px 2px #aaa;
+                          	-moz-box-shadow: 0px -1px 2px #aaa;
+                          	-webkit-box-shadow: 0px -1px 2px #aaa;
+                          text-shadow: 0px 1px 1px #eee;
+                          
+                          background-color:#809080;
+						  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0D0D0D', endColorstr='#FCFCFC');
+						  background: -webkit-gradient(linear, left top, 0% 0%, 
+                          	color-stop( 0%, #0D0D0D), 
+                          	color-stop( 100%, #FCFCFC) 
+                          	);
+                          background: -moz-linear-gradient( left 90deg, 
+                          	hsla(0, 0%, 58%, 1) 0%, 
+                          	hsla(0, 0%, 80%, 1) 100% 
+                          	);
+                        }
+
+.left                   { border-bottom-left-radius: 10px;
+                          -moz-border-radius-bottomleft: 10px;
+                          -webkit-border-radius-bottomright: 10px;
+                        }
+.right                  { border-bottom-right-radius: 10px;
+                          -moz-border-radius-bottomright: 10px;
+                          -webkit-border-radius-bottomright: 10px;
+                        }
+a span.icon             { position: relative; display: inline-block;
+                          top: 2px;
+                          width: 12px; height: 12px;
+                          margin: auto 7px auto auto;
+                          *top: 0px;
+                          background-image: url('https://web5.wgu.edu/aap/content/csg.png');
+                          background-repeat: no-repeat;
+                        }
+a:active span.icon 		{ background-image: url('https://web5.wgu.edu/aap/content/csg2.png');
+						}
+.arrowdown              { background-position: 0px 0px;
+                        }
+.arrowdown:active       { background-position: 0px 0px;
+                        }
+.article                { background-position: 0px -17px
+                        }
+.article:active         { background-position: 0px -17px;
+                        }
+.cog                    { background-position: 0px -34px
+                        }
+.cog:active             { background-position: 0px -34px;
+                        }
+.document               { background-position: 0px -51px;
+                        }
+.document:active        { background-position: 0px -51px
+                        }
+.document_stroke        { background-position: 0px -68px
+                        }
+.document_stroke:active { background-position: 0px -68px
+                        }
+.home                   { background-position: 0px -85px
+                        }
+.home:active            { background-position: 0px -85px
+                        }
+.window                 { background-position: 0px -102px
+                        }
+.window:active          { background-position: 0px -102px
+                        }
+.pen                    { background-position: 0px -119px
+                        }
+.pen:active             { background-position: 0px -119px
+                        }

@@ -1,0 +1,94 @@
+@media screen { 
+    body {
+        background: #333 no-repeat;
+        
+        /* CSS3 Radial Gradients */
+        background-image: -moz-radial-gradient(center -100px 45deg, circle farthest-corner, #666 150px, #333 600px);
+        background-image: -webkit-gradient(radial, 50% 0, 150, 50% 0, 600, from(#666), to(#333)); }
+
+    div.page {
+        padding: 40px;
+        padding-top: 30px;
+        margin: 20px;
+        width: 500px;
+        min-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFFFFF;
+        
+        /*rounded bottom corners*/
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        
+        /*box shadow*/
+        -webkit-box-shadow: 0px 2px 20px #111;
+        -moz-box-shadow: 0px 2px 20px #111;
+        box-shadow: 0px 2px 20px #111; }
+
+    div.left {
+        text-align: center;
+        padding: 15px;
+        margin: 100px 10px;
+        position: fixed;
+        float: left;
+        background: none; 
+		z-index:-1}
+
+    div.printit {
+        position: relative;
+        float: right; }
+}
+/*end screen styles*/
+
+@media print { 
+    body {
+        background: white;
+        font-size: 12pt; }
+
+    .page {
+        float: clear both;
+        position: relative; }
+
+    div.printit {display: none }
+
+    #content {
+        width: auto;
+        margin: 0 10%;
+        padding: 0;
+        border: 0;
+        float: none !important;
+        color: black;
+        background: transparent none; }
+
+    div#content {
+        margin-left: 10%;
+        padding-top: 1em;
+        border-top: 1px solid #eee; }
+
+    a:link,
+    a:visited {
+        color: blue;
+        background: transparent;
+        text-decoration: underline;
+        overflow: auto; }
+
+    #content a:link:after,
+    #content a:visited:after {
+        content: " (" attr(href) ") ";
+        font-size: 90%;
+        overflow: auto; }
+
+    .left {
+        position: relative;
+        margin: 20px;
+		display:block }
+
+        .left img {
+            filter: alpha(opacity=10);
+            -moz-opacity: 0.1;
+            -khtml-opacity: 0.1;
+            opacity: 0.1; }
+}
+
+/* end print styles  */

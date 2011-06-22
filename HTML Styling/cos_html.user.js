@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name           COSPDF
+// @name           COS_HTML
 // @description    Reformats and regroups the different elements in the HTML version of the COS
 // @author         Kurt Madsen
 // @include        http://cospdf.wgu.edu/*
@@ -8,11 +8,19 @@
 
 function ReForm() {
     
-    
+    //Add the WGU favicon to the page
     newStyle = '<link rel="shortcut icon" href="https://web5.wgu.edu/aap/content/logo_favicon.ico" type="image/x-icon" />';
+
+    //Add the HTML stylesheet for this version 
     newStyle += '<link rel="stylesheet" href="https://gist.github.com/raw/0b687dccf2031a6cf03a/8fee6e702e947e528e8d311adba461496dbe4f1a/cos_html.css">';
+
     $("head").append(newStyle);
 
+//----------
+//Set up the page to group titles with descriptions for activities, topics, and subjects
+//Adapted from: http://stackoverflow.com/questions/6099536/use-javascript-bookmarklet-to-chunk-page-content-by-headings/6103700#6103700
+
+//[Still need to figure out how to group activities within topics, then topics within subjects]
 
     var parent = document.body,
         i;
@@ -50,15 +58,10 @@ function ReForm() {
         parent.appendChild(newArray[i]);
     }
 
-    //$('.four').each(function() { 
-    //        $(this)
-    //            .add($(this).nextUntil( $(".two, .one")) ).wrapAll( $("<div class='test'></div>") );
-    //    });
-    // add this 
+    // add this print button to the page. 
     //<div class=printit> 
     //<SCRIPT LANGUAGE="JavaScript"> if (window.print) {document.write('<form><input type=button name=print value=" Print this page " onClick="window.print()"></form>');}
     //</script> 
     //</div> 
 }
-
 ReForm();
