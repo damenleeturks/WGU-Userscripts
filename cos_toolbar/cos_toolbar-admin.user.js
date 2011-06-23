@@ -43,11 +43,11 @@ function mentoctopus() {
     list += list_main;
     list += list_history;
     list += list_quickRef;
-    // list += list_student2;
+    list += list_student2;
     list += list_html;
     list += list_pdf2;
-    // list += list_edit;
-    // list += list_source;
+    list += list_edit;
+    list += list_source;
     list += '</div>';
 
     $("body").append(list);
