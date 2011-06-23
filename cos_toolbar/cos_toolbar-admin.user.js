@@ -14,8 +14,11 @@ function mentoctopus() {
     var course_id = document.URL.match(/[0-9]{5}/);
 
     //----------
-    newStyle = '<link rel="shortcut icon" href="https://web5.wgu.edu/aap/content/logo_favicon.ico" type="image/x-icon" />';
-    newStyle += '<link rel="stylesheet" href="https://web5.wgu.edu/aap/content/cos_userscript.css">';
+    //Add the WGU favicon to the page
+    newStyle = '<link rel="shortcut icon" href="https://github.com/damenleeturks/WGU-Userscripts/raw/master/images/logo_favicon.ico" type="image/x-icon" />';
+
+    //Add the HTML stylesheet for this version 
+    newStyle += '<link rel="stylesheet" href="https://github.com/damenleeturks/WGU-Userscripts/raw/master/html_styling/cos_html.css">';
     $("head").append(newStyle);
 
     //----------

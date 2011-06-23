@@ -3,16 +3,16 @@
 // @description    Reformats and regroups the different elements in the HTML version of the COS
 // @author         Kurt Madsen
 // @include        http://cospdf.wgu.edu/*
-// @version        0.3
+// @version        0.3.5
 // ==/UserScript==
 
 function ReForm() {
     
     //Add the WGU favicon to the page
-    newStyle = '<link rel="shortcut icon" href="https://web5.wgu.edu/aap/content/logo_favicon.ico" type="image/x-icon" />';
+    newStyle = '<link rel="shortcut icon" href="https://github.com/damenleeturks/WGU-Userscripts/raw/master/images/logo_favicon.ico" type="image/x-icon" />';
 
     //Add the HTML stylesheet for this version 
-    newStyle += '<link rel="stylesheet" href="https://gist.github.com/raw/0b687dccf2031a6cf03a/8fee6e702e947e528e8d311adba461496dbe4f1a/cos_html.css">';
+    newStyle += '<link rel="stylesheet" href="https://github.com/damenleeturks/WGU-Userscripts/raw/master/html_styling/cos_html.css">';
 
     $("head").append(newStyle);
 
