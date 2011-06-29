@@ -3,6 +3,7 @@ body{
     min-width:480px; 
     margin: 1em auto;
     font-size: 1em;
+    font-family:sans-serif;
     }
 
 a:after{
@@ -36,7 +37,7 @@ h4+p {
 
 li:first-child{ 
    margin-top:0.25em;
-    }
+   }
 
 .one {margin-left:0em;} 
 .two {margin-left:1.0em;}
