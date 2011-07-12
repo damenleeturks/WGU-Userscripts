@@ -1,0 +1,53 @@
+body {font-family:Verdana, sans-serif;}
+
+div.page {width:85%;}
+
+.printtitle{
+	text-align:left;
+	font-size:2.5em;
+	}
+	
+.rubrictable {
+	border:2px #555555 solid;
+	vertical-align:top;
+	border-collapse: collapse;
+	}
+	
+td {vertical-align:top;
+	text-align:left;
+	height:0%;}
+
+.rubriclevel,
+.rubriclevelcriterialabel, 
+.rubriclevelscore {
+	text-align:center;
+	}
+
+.rubriccontent {background-color:#ffffff;}
+.rubricscore {background-color:#eaeaea;}
+
+.rubriccriteria	{
+	background-color:#ccffff; 
+	font-weight:bold;
+	}
+	
+.rubriclevel,
+.rubriclevelscore, 
+.rubriclevelcriterialabel {
+	background-color:#d8d8d8;
+	}
+
+.rubricscore,
+.rubriclevel,
+.rubriccontent,
+.rubriccriteria,
+.rubriclevelscore,
+.rubriclevelcriterialabel {
+	border-right:1px #555555 solid;
+	border-bottom:1px #555555 solid;
+	}
+
+.itemdetailsfirst{
+	font-weight:normal;
+	vertical-align:bottom;
+	}
