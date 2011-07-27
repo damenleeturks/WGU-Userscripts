@@ -1,14 +1,4 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-	<!--[if IE]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	
-	<style type="text/css">
+@media screen {
 		body{
 		    max-width:650px; 
 		    min-width:320px; 
@@ -63,13 +53,5 @@
 		
 		.one {margin-left:0em;} 
 		.two {margin-left:1.0em;}
-		.four {margin-left:2.0em;}
-	</style>
-
-</head>
-<body>
-
-<!-- Paste COS html here --!>
-
-</body>
-</html>
+		.four {margin-left:2.0em;}		
+}
