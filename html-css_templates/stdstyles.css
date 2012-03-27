@@ -1,4 +1,4 @@
-<style type="text/css">
+
 body {
     font-size: 1em;
     font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Myriad Pro", Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans serif;
@@ -175,6 +175,5 @@ blockquote:before {
 }
 
 .label:before, .label:after {
-    content: "
+    content: &quot;
 }
-</style>
