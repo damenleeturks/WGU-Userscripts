@@ -7,6 +7,7 @@
 // @include        http://wsdi1.wgu.edu/student/course/*
 // @include        http://cos.wgu.edu/cos.html?courseId=*
 // @include        http://cosauth.wgu.edu/student/course/*
+// @include        https://horizon.wgu.edu/group/academics/cos/*
 // @version        0.8.6
 // ==/UserScript==
 
